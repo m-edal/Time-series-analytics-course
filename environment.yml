@@ -1,0 +1,19 @@
+name: MPEC
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - mkl
+  - mkl-include
+  - pandas
+  - statsmodels
+  - matplotlib
+  - ruptures
+  - jupyter
+  - xarray
+  - seaborn
+  - dask
+  - scikit-learn
+  - shap
+  - xgboost
+prefix: /Users/user/opt/anaconda3/envs/MPEC
