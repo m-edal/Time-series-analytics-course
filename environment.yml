@@ -1,0 +1,10 @@
+name: MPEC_test
+channels:
+  - defaults
+dependencies:
+  - shap
+  - pandas
+  - xgboost
+  - seaborn
+  - ruptures
+prefix: C:\Users\mccikdt3\anaconda3\envs\MPEC_test
