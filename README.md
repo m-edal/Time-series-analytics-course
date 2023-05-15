@@ -4,8 +4,7 @@
 1. [Course overview](#Course-overview)
 2.  [Running the models](#Running)
      * 2a. [Using your own machine](#own)
-     * 2b. [Using Binder](#Binder)
-     * 2c. [Using Google Colab](#Colab)
+     * 2b. [Using Google Colab](#Colab)
 3. [Folder structure and running the examples](#Folder-Structure)
 4. [Expectations and pace of learning](#Expectations)
 5. [Code of Conduct](#Code-of-Conduct)
@@ -45,7 +44,7 @@ You will see a number of packages being downloaded by the conda package manager 
 
     To activate this environment, use
     
-        $ conda activate AerosolModelling
+        $ conda activate MPEC
     
     To deactivate an active environment, use
     
@@ -53,7 +52,7 @@ You will see a number of packages being downloaded by the conda package manager 
         
 These are the commands for switching on/off this new virtual environment. Let's switch it on. Type the following in the command prompt/terminal:
 
-> conda activate AerosolModelling
+> conda activate MPEC
 
 In the command prompt, you will see the name (EnvModelling) replace (base). Now we can start an interactive Jupyer notebook session. Still within the project folder, type the following:
 
@@ -61,15 +60,9 @@ In the command prompt, you will see the name (EnvModelling) replace (base). Now 
 
 Can you see the project folders and files? You are good to go! Every time you now want to open the notebooks for this project, open either the Anaconda prompt or Terminal, activate the environment and then run the last command from within the project folder.
 
-### 2(b). Binder <a name="Binder"></a>
+### 2(b). Using Google Colab<a name="Colab"></a>
 
-If you do not, or cannot, run Python from your own machine we have provided the ability for you to interact with these files using Binder. The Binder project offers an easy place to share computing environments to everyone. It allows users to specify custom environments and share them with a [single link](https://jupyter.org/binder). Indeed, if you click the link below this will spin-up an individual session for you. Please bare in mind it can take a while to start, and if idle for a short period these sessions will stop. However you can download your notebook file during the session. Everytime you start a Binder link, it will start from scratch.
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/m-edal/Time-series-analytics-course/HEAD)
-
-### 2(c). Using Google Colab<a name="Colab"></a>
-
-Google's Colab [Co-laboratory](https://colab.research.google.com) is a great platform for developing machine learning and data-science driven applications on the web. It provides access to free GPU resource (Graphics Processing Units). However it also allows us to run Jupyter notebooks from a Github repository *if you have a Google account*. If you can register or have an existing Google account, using Google Colab is a really nice experience. It will allow you to save individual files and projects to your Google Drive. We dont cover that here. By clicking on the above link it will take you to a page that presents you with options to load existing files from either your Google Drive or from public repositories. However we also provide you with a notebook that will setup all of the files on your Google drive. This can be run by clickung on the link below. This clones the current respository to your drive and sets up the pre-trained XGBoost model files so you can call them as you would running on your loc:
+Google's Colab [Co-laboratory](https://colab.research.google.com) is a great platform for developing machine learning and data-science driven applications on the web. It provides access to free GPU resource (Graphics Processing Units). However it also allows us to run Jupyter notebooks from a Github repository *if you have a Google account*. If you can register or have an existing Google account, using Google Colab is a really nice experience. It will allow you to save individual files and projects to your Google Drive. We dont cover that here. By clicking on the above link it will take you to a page that presents you with options to load existing files from either your Google Drive or from public repositories. However we also provide you with a notebook that will setup all of the files on your Google drive. This can be run by clicking on the link below. This clones the current respository to your drive and sets up the pre-trained XGBoost model files so you can call them as you would running on your local machine:
 
 #### Setting up on Google Colab
 - [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Setup_GoogleColab.ipynb)
@@ -80,8 +73,10 @@ Once you have run this file, you can then access your notebook files from your G
 
     .                           # Root folder of our repository
     ├── images                  # Contains images for all notebooks
-    ├── solutions               # Contains the same notebooks as in our root folder but with solutions
-    |------ images                # images used in solutions notebooks
+    ├── data               # Contains the same notebooks as in our root folder but with solutions
+    |------ AURN                # images used in solutions notebooks
+    |------ Reanalysis          # Reanalysis met data
+    |------ Supersite           # Air quality supersite data
     ├── Practical 1 -           # Individual notebook practicals
     ├── Practical 2. ....
     ├── LICENSE
