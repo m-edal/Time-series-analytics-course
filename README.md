@@ -79,7 +79,7 @@ Google's Colab [Co-laboratory](https://colab.research.google.com) is a great pla
   - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/solutions/Practical_2.ipynb)
 #### Practical 3 - Weather normalisation and changepoints
 - [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/Practical_3.ipynb)
-  - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Practical_3_solutions.ipynb)
+  - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Setup_GoogleColab.ipynb)
 
 ## Repository structure and using Jupyter notebooks <a name="Folder-Structure"></a>
 
