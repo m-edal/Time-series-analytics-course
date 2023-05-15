@@ -69,17 +69,12 @@ If you do not, or cannot, run Python from your own machine we have provided the 
 
 ### 2(c). Using Google Colab<a name="Colab"></a>
 
-Google's Colab [Co-laboratory](https://colab.research.google.com) is a great platform for developing machine learning and data-science driven applications on the web. It provides access to free GPU resource (Graphics Processing Units). However it also allows us to run Jupyter notebooks from a Github repository *if you have a Google account*. If you can register or have an existing Google account, using Google Colab is a really nice experience. It will allow you to save individual files and projects to your Google Drive. We dont cover that here. By clicking on the above link it will take you to a page that presents you with options to load existing files from either your Google Drive or from public repositories. However we can also provide you with a clickable link for running individual notebook files, much like Binder. These are given below and are linked to each notebook file. You will likely find these load much quicker than using Binder. However, you may find any images used in the notebook file that are in the Github repo do not load..but not a huge problem. The links to current notebook files are given below:
+Google's Colab [Co-laboratory](https://colab.research.google.com) is a great platform for developing machine learning and data-science driven applications on the web. It provides access to free GPU resource (Graphics Processing Units). However it also allows us to run Jupyter notebooks from a Github repository *if you have a Google account*. If you can register or have an existing Google account, using Google Colab is a really nice experience. It will allow you to save individual files and projects to your Google Drive. We dont cover that here. By clicking on the above link it will take you to a page that presents you with options to load existing files from either your Google Drive or from public repositories. However we also provide you with a notebook that will setup all of the files on your Google drive. This can be run by clickung on the link below. This clones the current respository to your drive and sets up the pre-trained XGBoost model files so you can call them as you would running on your loc:
 
-#### Practical 1 - Pandas and initial data discovery
-- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/Practical_1.ipynb)
-  - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/solutions/Practical_1.ipynb)
-#### Practical 2 - Time series statistics
-- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/Practical_2.ipynb)
-  - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/solutions/Practical_2.ipynb)
-#### Practical 3 - Weather normalisation and changepoints
-- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/loftytopping/Aerosol_CDT_modelling/blob/master/Practical_3.ipynb)
-  - Solution notebook: [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Setup_GoogleColab.ipynb)
+#### Setting up on Google Colab
+- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Setup_GoogleColab.ipynb)
+
+Once you have run this file, you can then access your notebook files from your Google drive, modify them and save them for continual development. We will cover this in class.
 
 ## Repository structure and using Jupyter notebooks <a name="Folder-Structure"></a>
 
