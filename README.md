@@ -81,6 +81,10 @@ Once you have run this file, you can then access your notebook files from your G
     ├── Practical 2. ....
     ├── LICENSE
     └── README.md
+
+#### Rebasing on Google Colab
+- [![Open notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/m-edal/Time-series-analytics-course/blob/main/Rebase_GoogleColab.ipynb)
+
     
 ## Expectations and pace of learning<a name="Expectations"></a>
 
