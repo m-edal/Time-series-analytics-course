@@ -1,12 +1,6 @@
 # Dockerfile
 FROM continuumio/miniconda3
 
-# Install system dependencies like git
-RUN apt-get update && apt-get install -y git
-
-#  Clone your repo into a known location (e.g., /workspace)
-RUN git clone https://github.com/m-edal/Time-series-analytics-course.git /workspace
-
 # Copy the environment file into the container
 COPY environment.yml /tmp/environment.yml
 
