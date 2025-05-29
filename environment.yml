@@ -1,10 +1,16 @@
-name: MPEC_test
+name: timeseries
 channels:
   - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
 dependencies:
-  - shap
-  - pandas
-  - xgboost
+  - conda-forge::geopandas
+  - contextily
+  - jupyter
+  - conda-forge::rioxarray
+  - conda-forge::xgboost
   - seaborn
-  - ruptures
-prefix: C:\Users\mccikdt3\anaconda3\envs\MPEC_test
+  - anaconda::statsmodels
+  - pip:
+    - flaml[automl]
