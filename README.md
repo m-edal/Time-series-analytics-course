@@ -18,7 +18,12 @@
 
 ## 1) Course overview<a name="Course-overview"></a>
 
-This short course was designed as an introduction to using the Python ecosystem for generating insights from time series datasets. We provide particular attention to air-quality and meteorological datasets using 4 Jupyter notebooks. 
+This short course was designed as an introduction to using the Python ecosystem for generating insights from time series datasets. We provide particular attention to air-quality and meteorological datasets using 4 Jupyter notebooks; one for each day of the course. 
+
+<p align="center">
+  <img src="images/overview.png" width="600" height="350"/>
+</p>
+
 
 Time-series data and associated methods for generating insights is a huge area of research. We do not cover many methods here, rather provide a starting point from which a user could become comfortable with the general Python ecosystem whilst moving towards methods that include machine learning and GiS. 
 
