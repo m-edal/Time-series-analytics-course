@@ -1,5 +1,11 @@
 # Time-series-analytics-course
 
+<p align="center">
+  <img src="images/README1.png" width="380" height="350"/>
+  <img src="images/README2.png" width="250" height="350"/>
+  <img src="images/README3.png" width="320" height="350"/>
+</p>
+
 # Table of contents
 1. [Course overview](#Course-overview)
 2.  [Running the models](#Running)
